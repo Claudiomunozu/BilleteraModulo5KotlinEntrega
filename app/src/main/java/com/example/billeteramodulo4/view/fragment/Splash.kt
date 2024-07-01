@@ -1,4 +1,4 @@
-package com.example.billeteramodulo4.view
+package com.example.billeteramodulo4.view.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

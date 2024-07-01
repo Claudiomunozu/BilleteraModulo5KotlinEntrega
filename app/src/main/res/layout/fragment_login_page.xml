@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.LoginPage">
+    tools:context=".view.fragment.LoginPage">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -43,6 +43,7 @@
             android:hint="@string/ingresa_tu_email"
             android:inputType="textEmailAddress"
             android:textColorHint="#CFB6B6"
+            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -58,6 +59,7 @@
             android:hint="@string/ingresa_tu_contrase_a"
             android:inputType="textPassword"
             android:textColorHint="#CFB6B6"
+            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.494"

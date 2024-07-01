@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginPageFragment"
-        android:name="com.example.billeteramodulo4.view.LoginPage"
+        android:name="com.example.billeteramodulo4.view.fragment.LoginPage"
         android:label="fragment_login_page"
         tools:layout="@layout/fragment_login_page">
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/singupPageFragment"
-        android:name="com.example.billeteramodulo4.view.SingupPage"
+        android:name="com.example.billeteramodulo4.view.fragment.SingupPage"
         android:label="fragment_singup_page"
         tools:layout="@layout/fragment_singup_page">
         <action
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.example.billeteramodulo4.view.Welcome"
+        android:name="com.example.billeteramodulo4.view.fragment.Welcome"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome">
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/splash"
-        android:name="com.example.billeteramodulo4.view.Splash"
+        android:name="com.example.billeteramodulo4.view.fragment.Splash"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash">
         <action
@@ -52,7 +52,7 @@
     </fragment>
     <fragment
         android:id="@+id/homePage"
-        android:name="com.example.billeteramodulo4.view.HomePage"
+        android:name="com.example.billeteramodulo4.view.fragment.HomePage"
         android:label="fragment_home_page"
         tools:layout="@layout/fragment_home_page">
         <action
@@ -67,7 +67,7 @@
     </fragment>
     <fragment
         android:id="@+id/sendMoney"
-        android:name="com.example.billeteramodulo4.view.SendMoney"
+        android:name="com.example.billeteramodulo4.view.fragment.SendMoney"
         android:label="SendMoney">
         <action
             android:id="@+id/action_sendMoney_to_homePage"
@@ -75,7 +75,7 @@
     </fragment>
     <fragment
         android:id="@+id/requestMoney"
-        android:name="com.example.billeteramodulo4.view.RequestMoney"
+        android:name="com.example.billeteramodulo4.view.fragment.RequestMoney"
         android:label="RequestMoney">
         <action
             android:id="@+id/action_requestMoney_to_homePage"
@@ -83,7 +83,7 @@
     </fragment>
     <fragment
         android:id="@+id/homePageEmptyCase"
-        android:name="com.example.billeteramodulo4.view.HomePageEmptyCase"
+        android:name="com.example.billeteramodulo4.view.fragment.HomePageEmptyCase"
         android:label="fragment_home_page_empty_case"
         tools:layout="@layout/fragment_home_page_empty_case">
         <action
@@ -101,7 +101,7 @@
     </fragment>
     <fragment
         android:id="@+id/profilePage"
-        android:name="com.example.billeteramodulo4.view.ProfilePage"
+        android:name="com.example.billeteramodulo4.view.fragment.ProfilePage"
         android:label="fragment_profile_page"
         tools:layout="@layout/fragment_profile_page">
         <action

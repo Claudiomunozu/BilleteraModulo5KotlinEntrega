@@ -163,17 +163,19 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/etDineroSendPage" />
 
-        <TextView
-            android:id="@+id/textView28"
+        <EditText
+            android:id="@+id/tvNotaTransferencia"
             android:layout_width="357dp"
             android:layout_height="197dp"
             android:hint="@string/agregar_notas_de_transferencia_opcional"
+            android:textSize="15dp"
+            android:textAlignment="center"
             android:textColorHint="#8654DF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/imageView12"
-            app:layout_constraintVertical_bias="0.115" />
+            app:layout_constraintVertical_bias="0.171" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

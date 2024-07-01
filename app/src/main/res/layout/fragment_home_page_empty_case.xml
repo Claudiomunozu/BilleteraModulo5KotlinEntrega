@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.HomePageEmptyCase">
+    tools:context=".view.fragment.HomePageEmptyCase">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -68,7 +68,7 @@
                 android:layout_width="150dp"
                 android:layout_height="55dp"
                 android:layout_weight="1"
-                android:backgroundTint="#4962BF"
+                android:backgroundTint="#bc4ed8"
                 android:drawableLeft="@mipmap/envia_icon"
                 android:text="@string/enviar_dinero" />
 

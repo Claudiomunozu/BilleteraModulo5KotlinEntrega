@@ -6,3 +6,8 @@ hay navegacion de botones entre fragmentos con nav graph
 
 23-05-24 se impia codigo e incluyen clases ViewModel de todos los fragmentos 
 se validan ingreso de datos en blanco en los fragmentos y se observan clases con liveData
+
+26-06-24 se empieza a trabajar en modulo 6 y 7 respectivamente
+
+se cambia icono para apk con logo billetera
+

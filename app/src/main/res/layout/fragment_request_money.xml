@@ -164,7 +164,7 @@
             android:layout_width="370dp"
             android:layout_height="64dp"
             android:layout_weight="1"
-            android:backgroundTint="#4962BF"
+            android:backgroundTint="#bc4ed8"
             android:drawableLeft="@mipmap/recibe_icon"
             android:text="@string/ingresar_dinero"
             app:layout_constraintBottom_toBottomOf="parent"

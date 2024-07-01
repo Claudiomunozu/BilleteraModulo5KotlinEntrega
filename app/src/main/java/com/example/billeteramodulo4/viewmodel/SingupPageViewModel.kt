@@ -36,7 +36,6 @@ class SingupPageViewModel : ViewModel() {
         email: String, password: String,
         password2: String
     ) {
-
         _nombre.value = name
         _apellido.value = lastName
         _correo.value = email
@@ -53,8 +52,5 @@ class SingupPageViewModel : ViewModel() {
                 _correo.value.isNullOrEmpty() ||
                 _contrasena.value.isNullOrEmpty() ||
                 _contrasena2.value.isNullOrEmpty())
-
     }
-
-
 }

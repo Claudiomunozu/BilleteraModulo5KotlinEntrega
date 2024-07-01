@@ -26,6 +26,4 @@ class SendMoneyViewModel :ViewModel() {
             _validarSend.value = false
         }
     }
-
-
 }
